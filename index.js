@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Change this to match your ESP32 IP
-const ESP32_IP = 'http://192.168.120.2';
+const ESP32_IP = 'http://11.11.116.89';
 
 app.use(cors());
 app.use(express.json());
